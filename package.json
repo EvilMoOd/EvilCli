@@ -1,20 +1,28 @@
 {
   "name": "mucli",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.1.0",
+  "description": "木自用脚手架工具，快速根据已有的在线模板copy进新项目中",
   "main": "index.js",
   "bin": {
-    "mu": "./bin/mu.js"
+    "muc": "./bin/muc.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "cli",
+    "脚手架"
+  ],
   "author": "EvilMoOd",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.27.2",
     "chalk": "^4.0.0",
     "commander": "^5.1.0",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.5.2",
+    "fs-extra": "^10.1.0",
     "inquirer": "^7.1.0",
-    "which": "^2.0.2"
+    "ora": "^5.0.0"
   }
 }
