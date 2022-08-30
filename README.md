@@ -1,1 +1,2 @@
-
+- 木自用脚手架，拉取在线模板，提高项目开发起步速度
+- 模板基于vue和react的vite或webpack版本，后续可随意根据实际需要扩展模板，模板的仓库地址位于https://github.com/orgs/EvilMoOdCli/repositories

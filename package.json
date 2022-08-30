@@ -1,10 +1,10 @@
 {
-  "name": "mucli",
-  "version": "0.1.0",
+  "name": "evilcli",
+  "version": "0.1.2",
   "description": "木自用脚手架工具，快速根据已有的在线模板copy进新项目中",
   "main": "index.js",
   "bin": {
-    "muc": "./bin/muc.js"
+    "evil": "./bin/evil.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

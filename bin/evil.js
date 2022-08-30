@@ -25,7 +25,7 @@ program
 program.on('--help', function () {
   console.log(
     '\r\n' +
-      figlet.textSync('mu-cli', {
+      figlet.textSync('-evil-', {
         font: '3D-ASCII',
         horizontalLayout: 'default',
         verticalLayout: 'default',
@@ -37,16 +37,16 @@ program.on('--help', function () {
   console.log();
   console.log(
     `Run ${chalk.cyan(
-      'mu-cli <command> --help'
+      'evilcli <command> --help'
     )} for detailed usage of given command.`
   );
   console.log();
 });
 // 脚手架信息
 program
-  .name('mucli')
+  .name('evil-cli')
   .usage(`<command> [option]`)
-  .version(`mucli ${require('../package.json').version}`);
+  .version(`evilcli ${require('../package.json').version}`);
 
 // 解析用户执行时输入的参数
 // process.argv 是 nodejs 提供的属性
